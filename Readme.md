@@ -14,7 +14,7 @@
 
 ### MVP - Minimum Viable Product
 
-- A working full-stack application, using **Node.js, Mongoose, Express and EJS**
+- A working full-stack application, using **Node.js, Mongoose, Express and JSX**
 - Adhered to the **MVC** file structure: Models, Views, Controllers
 - At least one model with all 7 **RESTful routes** and full **CRUD**.
 - A git repository.

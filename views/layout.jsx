@@ -6,16 +6,17 @@ class Layout extends React.Component {
       <html>
         <head>
           <title>{this.props.title}</title>
-          <link rel="stylesheet" href="/css/style.css"/>
+          <link rel="stylesheet" href="/css/style.css" />
           <script src="/js/app.js"></script>
         </head>
         <body>
           <header>
-            <h1>This is the page header</h1>
+            <h1>Feel Good Moments</h1>
           </header>
           <main>{this.props.children}</main>
           <footer>
-            <h1>This is my footer</h1>
+            <hr></hr>
+            <h4>Please let me know if you would like a feature added to this website, email: feelgoodmomentszenp2@gmail.com </h4>
           </footer>
         </body>
       </html>
