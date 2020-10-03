@@ -13,19 +13,23 @@ class Layout extends React.Component {
         <body>
           <header>
             <h1>
-              Feel Good<span> Moments</span>
+              Feel Good Moments
+              </h1>
+            <h3>
               <nav>
                 <span>
-                  <a href="/auth/signup"> | SIGNUP | </a>
+                  <a href="/auth/signup"> | signup | </a>
                 </span>
                 <span>
-                  <a href="/auth/login"> | LOGIN | </a>
+                  <a href="/auth/login"> | login | </a>
                 </span>
                 <span>
-                  <a href="/auth/logout"> | LOGOUT | </a>
+                  <a href="/auth/logout"> | logout | </a>
                 </span>
               </nav>
-            </h1>
+            </h3>
+
+
           </header>
           <main>{this.props.children}</main>
           <footer>

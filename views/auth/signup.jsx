@@ -3,7 +3,6 @@ const Layout = require("../layout.jsx");
 
 class Index extends React.Component {
   render() {
-    const { fgms } = this.props;
     return (
       <Layout title="SIGNUP">
         <form action="/auth/signup" method="post">

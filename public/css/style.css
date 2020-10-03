@@ -5,7 +5,15 @@ header {
 main {
   text-align: center;
 }
-
-header h1 span {
+/* header h1 span { */
+h1 {
   color: coral;
+}
+
+h3 {
+  font-style: oblique;
+}
+
+body {
+  background-color: aqua;
 }

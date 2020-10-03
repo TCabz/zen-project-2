@@ -31,7 +31,7 @@ router.get("/new", auth, async (req, res) => {
 
 // +& create route
 router.post("/", auth, async (req, res) => {
-  router.body.username = req.session.username;
+  req.body.username = req.session.username;
   const newFgm = await Fgm.create(req.body);
   res.redirect("/fgms/");
 });
