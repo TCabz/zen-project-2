@@ -20,28 +20,24 @@
 - A git repository.
 - At **least one** Github commit per day.
 - **Deployed online** and accessible to the public via **Heroku**
-- Technologies used: 
-- Approach taken:
-- Unsolved problems:
-- User stories:
+- Technologies used: Node, CSS, Mongoose, Express, JSX, Prayers
+- Approach taken: Provide an MVP working app, while working long hours @ my day job.
+- Unsolved problems: Unable to figure out why multiple entries for a user is not being shown. My typing is horrendous, therefore I spent days fixing typos. I need to manage coding time better. Coding late night into the early morning is not helping.
+- User stories: As it seems our social & personal lives are always bombarded with bad news at every turn, I thought it would bring a smile to for people to share the times that made them happy (Feel Good Moments). Eventually, want to have this site list all the Feel Good Moments that are entered, where other users can send a smile through a smiley icon button & leave a comment. 
 - Notes to myself: 
-- **link to your hosted working app**: 
+- **linked to a hosted working app**: 
 - **sign up/log in** functionality, with **encrypted passwords & an authorization flow**
 
 ### &#x1F535; Stretch Goals:
-- Add additional relationships (models can be related in a one-to-many relationship, for example)
-  - [Optional notes on having two models](../../unit_2/w11d3/instructor_notes/multiple_models)
-- Use a Layout/AppLayout component
-- Include portfolio-quality styling
-- Use a CSS framework like Skeleton, Bootstrap, Materialize, Foundation, etc.
-- Incorporate a 3rd Party API like **Google Maps**
-- Inside Your `README.md`:
-- Include User Stories
-- Include **wireframes** that you designed during the planning process
+- Like button
+- Rank Feel Good Moments by Most Liked
+- Adding a comment feature where other users can leave a comment.
+- Provide the user the ability to upload pics, videos, gifs.
+- README.md has the following items:
+- User Story
+- Wireframe link to Draw.Io
 
-
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Mongo - Express - Express React Views Template
 
