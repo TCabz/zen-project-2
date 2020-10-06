@@ -46,7 +46,7 @@ class Layout extends React.Component {
                 <p><a href="https://www.facebook.com/codexworld" target="_blank">Like Us on<br></br>Facebook</a></p>
               </li>
               <li>
-                <img src="images/twitter-circle.png" width="28" height="28" />
+                <img src="images/Twitter-icon.png" width="28" height="28" />
                 <p><a href="https://twitter.com/codexworldblog" target="_blank">Follow Us on<br></br>Twitter</a></p>
               </li>
               <li>
