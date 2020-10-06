@@ -18,7 +18,11 @@ class Layout extends React.Component {
             <h3>
               <nav>
                 <span>
+<<<<<<< HEAD
                   <a href="/auth/signup"> | new user sign up | </a>
+=======
+                  <a href="/auth/signup"> | signup | </a>
+>>>>>>> 200fe26900fdeaa426b1dc0f38eaaa3de61e4d9f
                 </span>
                 <span>
                   <a href="/auth/login"> | login | </a>
