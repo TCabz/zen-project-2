@@ -7,10 +7,13 @@ const { Schema, model } = require("mongoose");
 // CREATE SCHEMA
 ////////////////////////////////////
 
-const fgmSchema = new Schema({
-  username: { type: String, required: true, unique: true },
-  fgm: { type: String, required: true },
-});
+const fgmSchema = new Schema(
+  {
+    username: { type: String, required: true },
+    fgm: String,
+  },
+  { timestamps: true }
+);
 
 ////////////////////////////////////
 // CREATE MODEL

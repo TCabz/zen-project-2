@@ -3,14 +3,13 @@ const Layout = require("../layout.jsx");
 
 class Index extends React.Component {
   render() {
-    const { fgms } = this.props;
     return (
-      <Layout title="New Feel Good Moment">
+      <Layout title="New Fgms">
         <form action="/fgms/" method="post">
-          <input type="text" placeholder="Write Your Good Feel Moment Here" name="fgm" />
+          <input type="text" placeholder="write your fgm here" name="fgm" />
           <input type="submit" value="create fgm" />
         </form>
-      </Layout >
+      </Layout>
     );
   }
 }

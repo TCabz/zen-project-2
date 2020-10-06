@@ -5,13 +5,21 @@ class Index extends React.Component {
   render() {
     const { fgms } = this.props;
     return (
-      <Layout title="My Feel Good Moments">
-        <h2> My Feel Good Moments </h2>
+      <Layout title="My Fgms">
+        <h1> My Fgms </h1>
         <a href="/fgms/new">
-          <button>New Feel Good Moment</button>
+          <button>New Fgm</button>
         </a>
         {fgms.map((fgm) => (
-          <h2>{fgm.fgm}</h2>
+          <div>
+            <h2>{fgm.fgm}</h2>
+            <form action={`/fgms/${fgm._id}?_method=DELETE`} method="POST">
+              <input type="submit" value="delete" />
+            </form>
+            <form action={`/fgms/edit/${fgm._id}`} method="GET">
+              <input type="submit" value="Edit" />
+            </form>
+          </div>
         ))}
       </Layout>
     );

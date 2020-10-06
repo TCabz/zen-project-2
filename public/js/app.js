@@ -1,1 +1,1 @@
-console.log("Compassion = Happiness");
+console.log('Hello World')

@@ -14,7 +14,7 @@ const router = Router();
 // ROUTES
 ///////////////////////////////////////
 
-// +& index route
+// +& INDEX ROUTE
 router.get("/", auth, async (req, res) => {
   try {
     const fgms = await Fgm.find({ username: req.session.username });
@@ -24,16 +24,55 @@ router.get("/", auth, async (req, res) => {
   }
 });
 
-// +& new route
+// +& New Route
 router.get("/new", auth, async (req, res) => {
-  res.render("fgms/signup.jsx");
+  try {
+    res.render("fgms/new.jsx");
+  } catch (error) {
+    console.log(error);
+  }
 });
 
-// +& create route
+// +& Create Route
 router.post("/", auth, async (req, res) => {
-  req.body.username = req.session.username;
-  const newFgm = await Fgm.create(req.body);
-  res.redirect("/fgms/");
+  try {
+    req.body.username = req.session.username;
+    const newFgm = await Fgm.create(req.body);
+    res.redirect("/fgms/");
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+// +& Delete Route
+router.delete("/:id", auth, async (req, res) => {
+  try {
+    await Fgm.findByIdAndDelete(req.params.id);
+    res.redirect("/fgms/");
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+// +& Edit Route
+router.get("/edit/:id", auth, async (req, res) => {
+  try {
+    const fgm = await Fgm.findById(req.params.id);
+    res.render("fgms/edit.jsx", { fgm });
+  } catch (error) {
+    console.log(error);
+  }
+});
+
+// +& Update Route
+router.put("/edit/:id", auth, async (req, res) => {
+  try {
+    req.body.username = req.session.username;
+    await Fgm.findByIdAndUpdate(req.params.id, req.body);
+    res.redirect("/fgms/");
+  } catch (error) {
+    console.log(error);
+  }
 });
 
 //TEST ROUTE TO SHOW HOW AUTH MIDDLEWARE WORKS

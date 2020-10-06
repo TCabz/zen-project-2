@@ -1,19 +1,11 @@
 header {
-  text-align: center;
+    text-align: center;
 }
 
 main {
-  text-align: center;
-}
-/* header h1 span { */
-h1 {
-  color: coral;
+    text-align: center;
 }
 
-h3 {
-  font-style: oblique;
-}
-
-body {
-  background-color: aqua;
+header h1 span {
+    color: green;
 }
