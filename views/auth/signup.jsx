@@ -8,7 +8,7 @@ class Index extends React.Component {
         <form action="/auth/signup" method="post">
           <input type="text" name="username" placeholder="username" />
           <input type="text" name="password" placeholder="password" />
-          <input type="submit" value="signup" />
+          <input type="submit" value="click here after you have entered your signup username & password" />
         </form>
       </Layout>
     );
