@@ -7,7 +7,7 @@ class Index extends React.Component {
       <Layout title="New Fgms">
         <form action="/fgms/" method="post">
           <input type="text" placeholder="write your fgm here" name="fgm" />
-          <input type="submit" value="create fgm" />
+          <input type="submit" value="Post The Feel Good Moments" />
         </form>
       </Layout>
     );

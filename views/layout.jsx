@@ -43,27 +43,27 @@ class Layout extends React.Component {
             <ul class="sticky">
               <li>
                 <img src="images/facebook-circle.png" width="28" height="28" />
-                <p><a href="https://www.facebook.com/codexworld" target="_blank">Like Us on<br></br>Facebook</a></p>
+                <p><a href="https://www.facebook.com/" target="_blank">Like Us on<br></br>Facebook</a></p>
               </li>
               <li>
                 <img src="images/Twitter-icon.png" width="28" height="28" />
-                <p><a href="https://twitter.com/codexworldblog" target="_blank">Follow Us on<br></br>Twitter</a></p>
+                <p><a href="https://twitter.com/" target="_blank">Follow Us on<br></br>Twitter</a></p>
               </li>
               <li>
-                <img src="images/gplus-circle.png" width="28" height="28" />
-                <p><a href="https://plus.google.com/codexworld" target="_blank">Follow Us on<br></br>Google+</a></p>
+                <img src="images/googleLogo.png" width="28" height="28" />
+                <p><a href="https://plus.google.com/" target="_blank">Follow Us on<br></br>Google+</a></p>
               </li>
               <li>
-                <img src="images/linkedin-circle.png" width="28" height="28" />
-                <p><a href="https://www.linkedin.com/company/codexworld" target="_blank">Follow Us on<br></br>LinkedIn</a></p>
+                <img src="images/linkedinLogo.png" width="28" height="28" />
+                <p><a href="https://www.linkedin.com/" target="_blank">Follow Us on<br></br>LinkedIn</a></p>
               </li>
               <li>
-                <img src="images/youtube-circle.png" width="28" height="28" />
-                <p><a href="http://www.youtube.com/codexworld" target="_blank">Subscribe on<br></br>YouTube</a></p>
+                <img src="images/youtubeLogo.png" width="28" height="28" />
+                <p><a href="http://www.youtube.com/" target="_blank">Subscribe on<br></br>YouTube</a></p>
               </li>
               <li>
-                <img src="images/pin-circle.png" width="28" height="28" />
-                <p><a href="https://www.pinterest.com/codexworld" target="_blank">Follow Us on<br></br>Pinterest</a></p>
+                <img src="images/pinterestLogo.jpeg" width="28" height="28" />
+                <p><a href="https://www.pinterest.com/" target="_blank">Follow Us on<br></br>Pinterest</a></p>
               </li>
             </ul>
           </div>
