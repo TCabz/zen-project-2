@@ -8,6 +8,31 @@ class Layout extends React.Component {
           <div class="header"></div>
           <div class="main-content"></div>
           <div class="footer"></div>
+          <div class="center-image">
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <img src="images/Smiley.svg" width="5%" />
+            <br></br>
+            <br></br>
+          </div>
+
         </div>
         <head>
           <title>{this.props.title}</title>
@@ -21,22 +46,25 @@ class Layout extends React.Component {
           <script src="/js/app.js"></script>
         </head>
         <body>
+
           <header>
             <h1>
               Feel Good Moments
-              <nav>
-                <buttonSignup>
-                  <a href="/auth/signup">signup</a>
-                </buttonSignup>
-                <buttonLogin>
-                  <a href="/auth/login">login</a>
-                </buttonLogin>
-                <buttonLogout>
-                  <a href="/auth/logout">logout</a>
-                </buttonLogout>
-              </nav>
             </h1>
+            <br></br>
+            <nav>
+              <buttonSignup>
+                <a href="/auth/signup">signup</a>
+              </buttonSignup>
+              <buttonLogin>
+                <a href="/auth/login">login</a>
+              </buttonLogin>
+              <buttonLogout>
+                <a href="/auth/logout">logout</a>
+              </buttonLogout>
+            </nav>
           </header>
+
           <main>{this.props.children}</main>
 
           <div class="sticky-container">
@@ -68,23 +96,9 @@ class Layout extends React.Component {
             </ul>
           </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          <footer>Comments Regarding this Site Can Be Emailed to tcabezon@gmail.com</footer>
+          <footer>Comments Regarding this Site Can Be Emailed to feelgoodmomentszenp2@gmail.com</footer>
         </body>
-      </html>
+      </html >
     );
   }
 }

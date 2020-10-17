@@ -7,8 +7,9 @@ class Index extends React.Component {
     return (
       <Layout title="My Fgms">
         <h1>My Feel Good Moments</h1>
+        <br></br>
         <a href="/fgms/new">
-          <button>New Feel Good Moments</button>
+          <button>Click Here to Enter a Feel Good Moment</button>
         </a>
         {fgms.map((fgm) => (
           <div>
