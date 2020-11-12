@@ -53,15 +53,15 @@ class Layout extends React.Component {
             </h1>
             <br></br>
             <nav>
-              <buttonSignup>
+              <buttonsignup>
                 <a href="/auth/signup">signup</a>
-              </buttonSignup>
-              <buttonLogin>
+              </buttonsignup>
+              <buttonlogin>
                 <a href="/auth/login">login</a>
-              </buttonLogin>
-              <buttonLogout>
+              </buttonlogin>
+              <buttonlogout>
                 <a href="/auth/logout">logout</a>
-              </buttonLogout>
+              </buttonlogout>
             </nav>
           </header>
 
