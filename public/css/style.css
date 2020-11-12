@@ -78,7 +78,7 @@ h3 {
 }
 
 head {
-  sticky-container {
+  /* sticky-container {
     padding: 0px;
     margin: 0px;
     position: fixed;
@@ -120,21 +120,21 @@ head {
   }
   sticky li p a:hover {
     text-decoration: underline;
-  }
+  } */
 
-  .center-image {
+  /* .top-image {
     display: flex;
     justify-content: center; /* horizontally center */
-    align-items: center; /* vertically center */
+  align-items: center; /* vertically center
     height: 300px;
     width: 300px;
     background: orange;
-  }
+  } */
 
-  .center-image img {
+  /* .top-image img {
     max-width: 100%;
     max-height: 100%;
-  }
+  } */
 }
 
 footer {

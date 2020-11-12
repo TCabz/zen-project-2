@@ -5,10 +5,10 @@ class Layout extends React.Component {
     return (
       <html>
         <div id="wrapper">
-          <div class="header"></div>
-          <div class="main-content"></div>
-          <div class="footer"></div>
-          <div class="center-image">
+          <div className="header"></div>
+          <div className="main-content"></div>
+          <div className="footer"></div>
+          {/* <div className="top-image">
             <img src="images/Smiley.svg" width="5%" />
             <img src="images/Smiley.svg" width="5%" />
             <img src="images/Smiley.svg" width="5%" />
@@ -31,7 +31,7 @@ class Layout extends React.Component {
             <img src="images/Smiley.svg" width="5%" />
             <br></br>
             <br></br>
-          </div>
+          </div> */}
 
         </div>
         <head>
@@ -53,22 +53,22 @@ class Layout extends React.Component {
             </h1>
             <br></br>
             <nav>
-              <buttonSignup>
+              <buttonsignup>
                 <a href="/auth/signup">signup</a>
-              </buttonSignup>
-              <buttonLogin>
+              </buttonsignup>
+              <buttonlogin>
                 <a href="/auth/login">login</a>
-              </buttonLogin>
-              <buttonLogout>
+              </buttonlogin>
+              <buttonlogout>
                 <a href="/auth/logout">logout</a>
-              </buttonLogout>
+              </buttonlogout>
             </nav>
           </header>
 
           <main>{this.props.children}</main>
 
-          <div class="sticky-container">
-            <ul class="sticky">
+          {/* <div className="sticky-container">
+            <ul className="sticky">
               <li>
                 <img src="images/facebook-circle.png" width="28" height="28" />
                 <p><a href="https://www.facebook.com/" target="_blank">Like Us on<br></br>Facebook</a></p>
@@ -94,7 +94,7 @@ class Layout extends React.Component {
                 <p><a href="https://www.pinterest.com/" target="_blank">Follow Us on<br></br>Pinterest</a></p>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <footer>Comments Regarding this Site Can Be Emailed to feelgoodmomentszenp2@gmail.com</footer>
         </body>
